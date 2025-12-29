@@ -1,25 +1,23 @@
-# Contributing to GitHub Foundations Learning Journey
+# Contributing to AZ-900: Azure Fundamentals Learning Journey
 
-This is a **personal learning repository** documenting Swamy's journey toward the GitHub Foundations Certification.
+This is a **personal learning repository** documenting Swamy's journey toward the AZ-900: Azure Fundamentals Certification.
 
 ## Purpose
 
 This repository is primarily for personal learning and documentation. If you're following a similar learning path, feel free to use this as a reference, but please note:
 
-- This is **not an official GitHub repository**
+- This is **not an official Microsoft repository**
 - Content is based on personal study and practice
 - The structure and content reflect one individual's learning approach
 
 ## Learning Structure
 
-This repository follows the GitHub Foundations Certification exam domains:
+This repository follows the AZ-900: Azure Fundamentals Certification exam domains:
 
-- **GitHub Basics** - Core concepts and terminology
-- **Working with Repositories** - Branching, commits, merges
-- **Collaboration** - Pull requests, reviews, issues
-- **GitHub Tools** - Actions, Pages, Marketplace
-- **Security & Best Practices** - Permissions, secrets, protection
-- **Open Source & Community** - Licenses, OSS workflows
+- **Cloud Concepts** - Core cloud computing concepts and models
+- **Azure Architecture and Services** - Azure services, compute, networking, storage
+- **Azure Management and Governance** - Identity, access, cost management, governance
+- **Azure Security, Privacy, Compliance, and Trust** - Security tools, compliance, trust
 
 ## Repository Structure
 
@@ -29,4 +27,4 @@ See [`docs/01_repository-structure.md`](docs/01_repository-structure.md) for the
 
 - This is a personal learning repository
 - Content is organized for exam preparation and practical application
-- Labs and exercises are included for hands-on practice
+- Exercises and examples are included for hands-on practice
