@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-MIT-purple)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-success)](https://github.com/Swamy-s-Tech-Skills-Academy-2026/az900-fundamentals-in-practice)
-[![Azure Fundamentals](https://img.shields.io/badge/Azure-AZ--900-blue)](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/)
+[![Azure Fundamentals](https://img.shields.io/badge/Azure-AZ--900-pink)](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/)
 ![Format](https://img.shields.io/badge/Format-30%20Minutes-yellow)
 ![Built with](https://img.shields.io/badge/Built%20with-GitHub%20Copilot-brown)
 [![Maintainer](https://img.shields.io/badge/Maintainer-Viswanatha%20Swamy%20P%20K-blue)](https://github.com/Swamy-s-Tech-Skills-Academy-2026)

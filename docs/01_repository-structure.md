@@ -1,17 +1,17 @@
 # Repository Structure
 
-**Version**: 2.0  
+**Version**: 1.0  
 **Last Updated**: December 29, 2025  
 **Purpose**: Single source of truth for repository structure
 
-> **Note**: This document should be referenced from `.github/copilot-instructions.md`, `.cursor/rules/02_repository-structure.mdc`, `README.md`, and other documentation files. When the structure changes, update this file first, then update references.
+> **Note**: This document should be referenced from `README.md` and other documentation files. When the structure changes, update this file first, then update references.
 
 ---
 
 ## Complete Repository Structure
 
 ```text
-github-foundations-in-practice/
+az900-fundamentals-in-practice/
 │
 ├── README.md
 ├── LICENSE
@@ -20,123 +20,60 @@ github-foundations-in-practice/
 ├── CODE_OF_CONDUCT.md
 ├── .gitignore
 ├── lychee.toml
-├── .markdownlint-cli2.yaml
-├── .markdownlint.json
-├── .markdownlintignore
-│
-├── .copilot/
-│   └── settings.json
-│
-├── .cursor/
-│   └── rules/
-│       ├── 01_educational-content-rules.mdc
-│       ├── 02_repository-structure.mdc
-│       ├── 03_quality-assurance.mdc
-│       ├── 04_markdown-standards.mdc
-│       ├── 05_primary-directives.mdc
-│       ├── 06_cross-domain-integration.mdc
-│       ├── 07_file-naming-conventions.mdc
-│       └── README.md
-│
-├── .github/
-│   ├── copilot-instructions.md
-│   ├── pull_request_template.md
-│   └── ISSUE_TEMPLATE/
-│       ├── bug_report.md
-│       ├── config.yml
-│       ├── content_suggestion.md
-│       └── question.md
+├── progress.md
+├── resources.md
 │
 ├── docs/
 │   ├── 01_repository-structure.md (this file)
-│   ├── 02_master-plan.md
-│   ├── 03_session-overview.md
-│   ├── images/
-│   │   └── .gitkeep
-│   ├── meetup/
-│   │   ├── .gitkeep
-│   │   ├── 01_meetup-introduction-git-github.md
-│   │   ├── 02_meetup-github-for-teams.md
-│   │   ├── 03_meetup-introduction-to-github-products.md
-│   │   ├── 04_meetup-configure-code-scanning.md
-│   │   └── sessions.md
-│   ├── review-reports/
-│   │   └── .gitkeep
-│   ├── sessions/
-│   │   ├── .gitkeep
-│   │   └── README.md
-│   └── templates/
-│       ├── .gitkeep
-│       ├── facilitator-notes-template.md
-│       ├── meetup-session-template.md
-│       └── src-content-template.md
-│
-├── source-material/
-│   └── README.md
+│   └── images/
+│       └── .gitkeep
 │
 ├── src/
-│   ├── .gitkeep
-│   ├── 01_github-basics/
-│   │   ├── .gitkeep
-│   │   ├── 01_version-control-basics.md
-│   │   ├── 02_git-essentials.md
-│   │   ├── 03_github-essentials.md
-│   │   ├── 04_github-flow.md
-│   │   ├── 05_github-platform-overview.md
-│   │   ├── 06_accounts-and-plans.md
-│   │   ├── 07_billing-and-usage.md
-│   │   ├── 08_github-desktop-mobile.md
-│   │   └── README.md
-│   ├── 02_working-with-repositories/
-│   │   └── .gitkeep
-│   ├── 03_collaboration/
-│   │   ├── .gitkeep
-│   │   ├── code-reviews.md
-│   │   ├── discussions.md
-│   │   ├── issues-projects.md
-│   │   ├── pull-requests.md
-│   │   └── README.md
-│   ├── 04_github-tools/
-│   │   ├── .gitkeep
-│   │   └── README.md
-│   ├── 05_security-and-best-practices/
-│   │   ├── .gitkeep
-│   │   ├── code-scanning-overview.md
-│   │   └── README.md
-│   ├── 06_open-source-and-community/
-│   │   └── .gitkeep
-│   ├── exam-prep/
-│   │   ├── 01_key-definitions.md
-│   │   ├── 02_trick-questions.md
-│   │   ├── 03_exam-mindset.md
-│   │   └── README.md
-│   ├── labs/
-│   │   └── .gitkeep
-│   ├── notes/
-│   │   ├── .gitkeep
-│   │   ├── common-mistakes.md
+│   ├── 01_cloud-concepts/
+│   │   ├── README.md
+│   │   ├── 01_cloud-computing-basics.md
+│   │   ├── 02_cloud-service-models.md
+│   │   ├── 03_cloud-deployment-models.md
+│   │   └── 04_cloud-economics.md
+│   │
+│   ├── 02_azure-architecture-services/
+│   │   ├── README.md
+│   │   ├── 01_core-architectural-components.md
+│   │   ├── 02_compute-services.md
+│   │   ├── 03_networking-services.md
+│   │   └── 04_storage-services.md
+│   │
+│   ├── 03_azure-management-governance/
+│   │   ├── README.md
+│   │   ├── 01_identity-access-management.md
+│   │   ├── 02_cost-management.md
+│   │   ├── 03_governance-features.md
+│   │   └── 04_resource-management-tools.md
+│   │
+│   ├── 04_azure-security-compliance/
+│   │   ├── README.md
+│   │   ├── 01_shared-responsibility-model.md
+│   │   ├── 02_azure-security-tools.md
+│   │   ├── 03_compliance-offerings.md
+│   │   └── 04_trust-privacy.md
+│   │
+│   ├── 90_exam-prep/
+│   │   ├── README.md
 │   │   ├── exam-tips.md
-│   │   └── glossary.md
-│   ├── progress/
-│   │   ├── .gitkeep
-│   │   ├── exam-readiness-checklist.md
-│   │   ├── milestones.md
-│   │   └── study-log.md
+│   │   ├── common-trick-questions.md
+│   │   ├── last-day-revision.md
+│   │   └── mock-questions.md
+│   │
+│   ├── 99_notes/
+│   │   ├── README.md
+│   │   ├── glossary.md
+│   │   ├── acronyms.md
+│   │   └── mental-models.md
+│   │
 │   └── resources/
-│       ├── .gitkeep
-│       ├── cheat-sheets.md
 │       ├── official-links.md
-│       └── practice-questions.md
-│
-└── tools/
-  └── psscripts/
-    ├── .gitkeep
-    ├── Compare-DocFiles.ps1
-    ├── Find-DuplicateContent.ps1
-    ├── Get-FileStats.ps1
-    ├── Get-MarkdownSummary.ps1
-    ├── Get-RepoStats.ps1
-    └── Quick-HealthCheck.ps1
+│       ├── practice-questions.md
+│       └── cheat-sheets.md
 ```
 
 ---
@@ -145,37 +82,32 @@ github-foundations-in-practice/
 
 ### File Naming Conventions
 
-- **Domain Folders** (`src/01_github-basics/` through `src/06_open-source-and-community/`):
+- **Domain Folders** (`src/01_cloud-concepts/` through `src/04_azure-security-compliance/`):
   - ✅ Use zero-padded numeric prefixes: `01_`, `02_`, etc.
-  - ✅ Use hyphens for multi-word names: `01_github-basics/`
-  - ✅ Content files use descriptive names: `concepts.md`, `pull-requests.md`
+  - ✅ Use hyphens for multi-word names: `01_cloud-concepts/`
+  - ✅ Content files use numeric prefixes: `01_cloud-computing-basics.md`
 
-- **Labs** (`src/labs/`):
-  - ✅ Use numbered lab files: `lab-01-create-repo.md`
-  - ✅ Each lab includes objective, steps, and expected outcome
-
-- **Notes** (`src/notes/`):
-  - ✅ Use descriptive names: `common-mistakes.md`, `exam-tips.md`, `glossary.md`
-
-- **Resources** (`src/resources/`):
-  - ✅ Use logical names: `official-links.md`, `practice-questions.md`, `cheat-sheets.md`
+- **Special Folders**:
+  - `90_exam-prep/` - Exam preparation materials
+  - `99_notes/` - Reference materials (glossary, acronyms, mental models)
+  - `resources/` - Official links, practice questions, cheat sheets
 
 ### Content Organization
 
-1. **Learning Progression**: Content follows GitHub Foundations exam domains (01 → 06)
-2. **Hands-On Practice**: Labs provide practical exercises
-3. **Reference Materials**: Notes and resources support learning
-4. **All Content Under `src/`**: All learning materials, labs, notes, progress, and resources are organized under the `src/` directory
+1. **Learning Progression**: Content follows AZ-900 exam domains (01 → 04)
+2. **All Content Under `src/`**: All learning materials, notes, progress, and resources are organized under the `src/` directory
+3. **Domain README Files**: Each domain folder contains a README.md that explains:
+   - What the domain covers
+   - Why it matters for the exam
+   - Common misconceptions
 
 ### Special Directories
 
-- **`src/progress/`**: Tracks learning milestones and exam readiness
-- **`docs/`**: Additional documentation, images, and session notes
-- **`tools/psscripts/`**: PowerShell automation scripts for repo analysis and maintenance
-- **`source-material/`**: Staging area for source content (git-ignored)
-  - Raw source materials placed here before migration
-  - Files are transformed and migrated to `src/` following content rules
-  - Source files remain after migration (user deletes manually)
+- **`src/90_exam-prep/`**: Exam preparation materials and strategies
+- **`src/99_notes/`**: Reference materials (glossary, acronyms, mental models)
+- **`src/resources/`**: Official links, practice questions, cheat sheets
+- **`docs/`**: Additional documentation and images
+- **`progress.md`**: Root-level progress tracking file
 
 ---
 
@@ -185,8 +117,6 @@ github-foundations-in-practice/
 
 1. ✅ **Update this file first** (`docs/01_repository-structure.md`)
 2. ✅ **Update references** in:
-   - `.github/copilot-instructions.md` - Reference this file
-   - `.cursor/rules/02_repository-structure.mdc` - Reference this file
    - `README.md` - Reference this file
 3. ✅ **Verify consistency** across all documentation
 
@@ -198,4 +128,3 @@ github-foundations-in-practice/
 
 - **Repository Structure**: This file (`docs/01_repository-structure.md`)
 - **Learning Path**: `README.md`
-- **GitHub Copilot Instructions**: `.github/copilot-instructions.md`
